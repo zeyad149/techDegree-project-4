@@ -14,20 +14,40 @@
 
 .default {
   background-color: #51ddfc;
+  &:hover {
+    background-color: lighten(#51ddfc,20);
+
+  }
 }
 
 .error {
   background-color: #e4757a;
+  &:hover {
+    background-color: lighten(#e4757a,20);
+
+  }
 }
 
 .info {
   background-color: #927bc1;
+  &:hover {
+    background-color: lighten(#927bc1,20);
+
+  }
 }
 
 .success {
   background-color: #63cc82;
+  &:hover {
+    background-color: lighten(#63cc82,20);
+
+  }
 }
 
 .warning {
   background-color: #fd7856;
+  &:hover {
+    background-color: lighten(#fd7856,20);
+
+  }
 }
