@@ -23,7 +23,7 @@
 .theme {
 
   &.col-1 {
-    background-color: #927bc1;
+    background-color: $magenta;
   }
   &.col-2 {
     background-color: #fd7856;
@@ -47,13 +47,13 @@
     background-color: #fd9f85;
   }
   &.col-9 {
-    background-color: #e4757a;
+    background-color: $pink-red;
   }
   &.col-10 {
     background-color: #63cc82;
   }
   &.col-11 {
-    background-color: #51ddfc;
+    background-color: $light-blue;
   }
   &.col-12 {
     background-color: #80e8d1;

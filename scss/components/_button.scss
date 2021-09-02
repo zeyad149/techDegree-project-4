@@ -5,7 +5,7 @@
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: #fff;
+  color: $white;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -13,25 +13,25 @@
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $light-blue;
   &:hover {
-    background-color: lighten(#51ddfc,20);
+    background-color: lighten($light-blue,20);
 
   }
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $pink-red;
   &:hover {
-    background-color: lighten(#e4757a,20);
+    background-color: lighten($pink-red,20);
 
   }
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $magenta;
   &:hover {
-    background-color: lighten(#927bc1,20);
+    background-color: lighten($magenta,20);
 
   }
 }
